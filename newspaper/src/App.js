@@ -2,14 +2,16 @@ import logo from './logo.svg';
 import './App.css';
 import MyNavbar from './Components/MyNavbar';
 import IntroJumbo from './Components/IntroJumbo';
-
+import Categories from './Components/Categories';
 function App() {
   return (
-    <div className='Container'>
+    <>
       <MyNavbar />
       <hr />
-      <IntroJumbo /> 
-    </div>
+      <Categories />
+      <hr />
+      <IntroJumbo />
+      </>
   );
 }
 
